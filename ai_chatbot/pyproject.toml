@@ -1,0 +1,14 @@
+[project]
+name = "ai-chatbot"
+version = "0.1.0"
+description = "AI chatbot"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "streamlit",
+  "google-generativeai",
+  "python-dotenv"
+]
+
+[tool.poetry]
+package-mode = false
